@@ -8,7 +8,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./backend/restaurant.db:/app/backend/restaurant.db
+      - ./backend:/app/backend
     restart: always
 
   frontend:
